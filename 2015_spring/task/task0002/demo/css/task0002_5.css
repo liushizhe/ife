@@ -1,0 +1,28 @@
+.s-block {
+    border: 1px solid #000;
+    width: 120px;
+    height: 19px;
+    background-color: #f00;
+    position: absolute;
+    cursor: move;
+}
+
+.block {
+    float: left;
+    border: 1px solid #000; /*整体再包围一个框，每个边框就有2px厚度*/
+    width:120px;
+    height: 220px;
+
+}
+
+.r-block {
+    margin-left: 200px;
+}
+
+.d-block {
+    position: relative;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+

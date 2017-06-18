@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["requirejs","gtd","init"],"mappings":"AAAAA,WAAW,SACX,SAAYC,GAGRA,EAAIC","file":"app.js","sourcesContent":["requirejs(['./gtd'],\nfunction   (gtd) {\n    //gtd and the app/sub module are all\n    //loaded and can be used here now.\n    gtd.init();\n});"]}

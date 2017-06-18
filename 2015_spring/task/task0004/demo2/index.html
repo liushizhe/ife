@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>task0004</title>
+	    <link rel="stylesheet" type="text/css" href="dist/css/task0004.css">
+	</head>
+
+	<body>
+		<div class="header">
+			<h2 class="h-style">GTD Tool</h3>
+		</div>
+		<div class="content">
+			<div class="t-list">
+				<ul class="t-list-wrap" >
+					<li>
+						<h3 id="t-list-all">
+						</h3>
+					</li>
+					<li>
+						<h3 >
+							分类列表
+						</h3>
+
+						<ul id="t-list-detail">
+
+							<!-- <li>
+								<h4>
+									分类列表1
+								</h4>
+								<ul>
+									<li>
+										<h5>
+											分类列表11
+										</h5>
+									</li>
+									<li>
+										<h5>
+											分类列表12
+										</h5>
+									</li>
+								</ul>
+								
+							</li>
+
+							<li>
+								<h4>
+									分类列表2
+								</h4>
+								<ul>
+									<li>
+										<h5>
+											分类列表21
+										</h5>
+									</li>
+								</ul>
+								
+							</li> -->
+							
+						</ul>
+					</li>
+				</ul>
+				<div class="t-list-add">
+					<span class="icon-plus"></span>
+				</div>
+			</div>
+
+			<div class="t-status">
+				<div class="t-status-sel">
+					<ul>
+						<li class="choose">
+							所有
+						</li>
+						<li class="">
+							未完成
+						</li>
+						<li class="">
+							已完成
+						</li>
+					</ul>
+				</div>
+				<ul class="t-status-choose">
+					<!-- <li>
+						<h6>2016</h6>
+						<ul>
+							<li>1</li>
+							<li>2</li>
+						</ul>
+					</li> -->
+				</ul>
+				<div class="t-status-add">
+					<span class="icon-plus"></span>
+				</div>
+			</div>
+
+			<div class="t-content">
+				<div class="t-content-info t-content-tittle">
+					任务标题:
+					<span></span>
+					<input type="text" class="edit-text task-text" placeholder="在此输入任务标题">
+					<div class="set-text">
+						<span class="icon-done"></span>
+						<span class="icon-edit"></span>
+					</div>
+				</div>
+				<div class="t-content-info t-content-date">
+					任务日期:
+					<span></span>
+					<input type="text" class="edit-text task-text" placeholder="在此输入任务日期（格式：2016-01-01）">
+				</div>
+				<div class="t-content-detail">
+					<span></span>
+					<textarea class="myTextArea" placeholder="在此输入任务内容"></textarea>
+					<p class="taskError"></p>
+	                <button class="myButton btn3">放弃</button>
+	                <button class="myButton btn3">保存</button>
+	                	<!-- taskAdd() -->
+				</div>
+			</div>
+		</div>
+	    
+	    <div class="pop">
+	    	<div class="pop-tittle">
+	    		新增任务
+	    	</div>
+	    	<div class="pop-content">
+	    	<!-- 
+	    		<div>
+	    		任务名称:
+	    		<input type="text" class="new-task-name new-task-name-p" placeholder="输入新任务名称">
+	    		</div>
+	    		<div>
+	    		任务目录:
+	    		<select class="cat-sel cat-sel-p">
+					<option value="-1">无</option>
+        			<option value="0">1</option>
+        			<option value="1">2</option>
+	    		</select>
+	    		</div>
+	    		<div class="error">12</div>
+        		<button class="pop-btn btn1" onclick="closePop()">取消</button>
+        		<button class="pop-btn btn2" onclick="confirmPop()">确定</button>
+	    		 -->
+	    	</div>
+	    </div>
+	    <div class="overlay"></div>
+		<!-- <script src="js/util.js"></script> -->
+		<!-- <script src="js/task0004.js"></script> -->
+		<script data-main="dist/js/app.js" src="dist/js/require.js"></script>
+	</body>
+</html>

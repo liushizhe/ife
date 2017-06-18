@@ -1,0 +1,61 @@
+/*搜索框*/
+.s_ipt_wr {
+    border: 1px solid #b6b6b6;
+    border-color: #b8b8b8 #ccc #ccc #b8b8b8;
+    width: 400px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    /*overflow: hidden;*/
+    margin: 0;
+    padding: 0;
+}
+/*输入文本框*/
+.s_ipt {
+    width: 400px;
+    height: 30px;
+    font: 16px/18px arial;
+    line-height: 22px\9;
+    margin: 0px 0 0 8px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+/*搜索列表*/
+ul,li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.bdsug ul{
+	height: auto;
+	display: none;
+	width: 200px;
+	border: 1px solid #b6b6b6;
+    border-color: #b8b8b8 #ccc #ccc #b8b8b8;
+    border-top: none;
+    position: relative;
+    top: 0;
+}
+
+.bdsug li {
+    width: 200px;
+    color: #000;
+    font: 14px arial;
+    line-height: 22px;
+    padding: 0 8px;
+    position: relative;
+    cursor: default;
+    top: 0;
+}
+.bdsug li span{
+	color: #f00;
+}
+
+.bdsug li.active{
+	background: #eee;
+}
+
+
